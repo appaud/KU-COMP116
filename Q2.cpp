@@ -9,8 +9,12 @@ class circle{
     public:
     circle(){}
     circle(double radius):radius(radius){}
-
-    void setsize(double radius);
-    double getarea();
-    double getperi();
+    double getarea(){
+        return 3.14*radius*radius;
+    }
+        
+    
+    double getperi(){
+        return 2*3.14*radius;
+    }
 };
