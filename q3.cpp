@@ -18,11 +18,18 @@ class point{
 
     }
 
+    friend std::ostream& operator<<(std::ostream& ap,const point& p);
+
 };
+
+std::ostream& operator<<(std::ostream& ap,const point& p){
+    return ap<<"("<<p.x<<","<<p.y<<")";
+}
+
 
 int main(){
     point p1(2,3);
     point p2(3,4);
-    std::cout<<"distance between points is"<<p1.getdistance(p2);
+    std::cout<<"distance between points"<<p1<<"and"<<p2<<"is"<<p1.getdistance(p2);
 
 }
