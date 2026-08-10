@@ -17,6 +17,7 @@ int main(){
     std::cout<<"enter length and breadth of rectangle in float"<<std::endl;
     std::cin>>c>>d;
     area(c,d);
+    return 0;
 
 
 }
