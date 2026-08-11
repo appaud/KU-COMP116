@@ -1,4 +1,8 @@
+//c++ program to check odd or even
+
 #include<iostream>
+
+
 
 void check(int n){
     if(n%2==0){
