@@ -8,3 +8,11 @@ void check(int n){
         std::cout<<"odd";
     }
 }
+
+int main(){
+    int n;
+    std::cout<<"enter a number to check odd or even"<<std::endl;
+    std::cin>>n;
+    check(n);
+    return 0;
+}
