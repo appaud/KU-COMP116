@@ -15,3 +15,7 @@ std::ostream& operator<<(std::ostream &os,const point& p){
     return os<<"("<<p.x<<","<<p.y<<")";
 }
 
+int main(){
+    point p(2,3);
+    std::cout<<p;
+}
